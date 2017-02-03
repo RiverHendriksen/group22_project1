@@ -113,6 +113,8 @@ public class MainTest {
         olgit = olgit.replace("\n", "");
         olgit = olgit.replace(" ", "");
 
+        System.out.print(olgit);
+
         assertEquals(200, res.status);
         assertEquals(olgit,res.body);
     }
